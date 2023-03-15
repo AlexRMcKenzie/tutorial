@@ -5,6 +5,11 @@ function Greeting() {
   return (
     <div>
       <h2>Hello World</h2>
+      <ul>
+        <li>
+          <a href="#">Hello people</a>
+        </li>
+      </ul>
     </div>
   );
 }
