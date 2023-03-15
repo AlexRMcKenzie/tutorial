@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-// function Greeting() {
-//   return <h1>First Component</h1>
-// }
+function Greeting() {
+  return (
+    <div>
+      <h2>First Component</h2>
+    </div>
+  );
+}
 
 // function Greeting() {
 //   return React.createElement('h2', {}, 'hello world')
