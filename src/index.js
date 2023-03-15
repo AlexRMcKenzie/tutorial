@@ -8,5 +8,3 @@ function Greeting() {
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
 root.render(<Greeting/>)
-
-export default Greeting;
