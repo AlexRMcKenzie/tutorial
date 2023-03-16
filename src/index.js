@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-function Greeting() {
+function App() {
   return (
     <div>
       <Person />
@@ -29,4 +29,4 @@ const Message = () => {
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
-root.render(<Greeting />)
+root.render(<App />)
