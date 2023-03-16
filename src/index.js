@@ -22,10 +22,10 @@ const Book = () => {
   )
 }
 
-const Image = () => <h2>image placeholder</h2>
-const Title = () => <h2>Title</h2>
+const Image = () => <img src="https://images-eu.ssl-images-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/81VYd5toxXL._AC_UL450_SR450,320_.jpg" alt="Bored of Lunch: The Healthy Air Fryer Book" />
+const Title = () => <h2>Bored of Lunch: The Healthy Air Fryer Book</h2>
 const Author = () => {
-  return <h4>Author</h4>
+  return <h4>Nathan Anthony</h4>
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
