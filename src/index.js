@@ -4,15 +4,16 @@ import ReactDOM from 'react-dom/client';
 function Greeting() {
   return (
     <div>
-      <h2>Hello World</h2>
-      <ul>
-        <li>
-          <a href="#">Hello people</a>
-        </li>
-      </ul>
+      <Person />
+      <Message />
     </div>
   );
 }
+
+const Person = () => <h2>John Doe</h2>;
+const Message = () => {
+  return <p>This is my message</p>;
+};
 
 // const Greeting = () => {
 //   return React.createElement(
