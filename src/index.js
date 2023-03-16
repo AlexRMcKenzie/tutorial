@@ -17,10 +17,8 @@ const secondBook = {
 const Booklist = () => {
   return (
     <section className='booklist'>
-      <Book author={author} title={title} img={img} />
-      <Book author={author} title={title} img={img} />
-      <Book author={author} title={title} img={img} />
-      <Book author={author} title={title} img={img} />
+      <Book author={firstBook.author} title={firstBook.title} img={firstBook.img} />
+      <Book author={secondBook.author} title={secondBook.title} img={secondBook.img} />
     </section>
   )
 }
