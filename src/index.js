@@ -16,22 +16,11 @@ const Booklist = () => {
 const Book = () => {
   return (
     <article className='book'>
-      <Image />
-      <Title />
-      <Author />
+      <img src="./images/book-1.jpg" alt="Bored of Lunch: The Healthy Air Fryer Book" />
+      <h2>Bored of Lunch: The Healthy Air Fryer Book</h2>
+      <h4>Nathan Anthony</h4>
     </article>
   )
-}
-
-const Image = () => <img src="./images/book-1.jpg" alt="Bored of Lunch: The Healthy Air Fryer Book" />
-const Title = () => <h2>Bored of Lunch: The Healthy Air Fryer Book</h2>
-const Author = () => {
-  const inlineHeadingStyles = {
-    color: '#617d98',
-    fontSize: '0.75rem',
-    marginTop: '0.5rem',
-  }
-  return <h4 style={inlineHeadingStyles}>Nathan Anthony</h4>
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
