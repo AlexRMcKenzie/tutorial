@@ -13,12 +13,14 @@ const Booklist = () => {
   )
 }
 
+const author = "Nathan Anthony";
 const Book = () => {
+  const title = "Bored of Lunch: The Healthy Air Fryer Boooooooook";
   return (
     <article className='book'>
       <img src="./images/book-1.jpg" alt="Bored of Lunch: The Healthy Air Fryer Book" />
-      <h2>Bored of Lunch: The Healthy Air Fryer Book</h2>
-      <h4>Nathan Anthony</h4>
+      <h2>{title}</h2>
+      <h4>{author.toUpperCase()}</h4>
     </article>
   )
 }
